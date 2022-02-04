@@ -1,0 +1,27 @@
+.block1 {
+    width: 500px;
+    height: 250px;
+    background-color: burlywood;
+}
+.block2 {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(81, 103, 124);
+}
+.block3 {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(121, 103, 121);
+}
+.img1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:transform .8s ease-in-out;
+}
+.img1::hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
